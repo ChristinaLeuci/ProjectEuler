@@ -9,12 +9,11 @@ class Project1
     i = 3
 
     while i < 1000
-      if i%3 == 0 && i%5 == 0
+      if i%3 == 0 || i%5 == 0
         numbers << i
       end
       i+=1
     end
-    binding.pry
     return numbers
   end
   def findsum
