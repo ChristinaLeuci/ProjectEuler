@@ -25,5 +25,4 @@ class Project1
     end
     return sum
   end
-  p1 = Project1.new
 end

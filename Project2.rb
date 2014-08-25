@@ -18,5 +18,4 @@ class Project2
     end
     return evensum
   end
-  p2 = Project2.new
 end
